@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* Text Elements */
+#animatedLogo              { margin:0px 0px; float:left}
+#universityName            { margin:70px 40px;float:right; }
+#wrapper                   { width: 900px; height:1000px; margin:0 auto; background-color:#DCD092}
+#mainWrapper               {
+	width: 920px; 
+	margin: 0 auto;
+
+	background-color:;
+	height: 1000px;
+	background-color: #DCD092;
+}
+body                       { background-image:url(background.jpg)}
+#topNavigate               { clear:both}
+#topNavigate ul            { border-top: 3px #703334 double; border-bottom: #703334 double;
+                             margin:10px 0; padding:10px}
+#topNavigate ul li         { display:inline; }
+#topNavigate li a          { padding:40px;  }
+
+#topNavigate a:link        { color: black; font: sans-serif; font-weight:bold; }
+#topNavigate a:visited     { color: #B3A9A9; }
+#topNavigate a:hover       { color: #DB6A6C; font-style: normal;}
+
+
+
+body {    
+   font: 12px Verdana, Arial, Helvetica, sans-serif;                
+}  
+.tabs {  
+   border:1px solid #96E3FF;  
+   background-color:#EDF9FE;  
+   padding:25px;  
+   -webkit-border-radius: 5px;  
+   -moz-border-radius: 5px;                 
+   border-radius: 5px;  
+   width:847px;    
+}  
+ul.tabs-nav {  
+   margin-bottom:7px;   
+   padding:0px;          
+}  
+ul.tabs-nav li {  
+   list-style:none;  
+   display:inline;  
+}  
+ul.tabs-nav li a {  
+   background-color:#2A92B9;  
+   color:#ffffff;  
+   padding:7px 15px 7px 15px;  
+   text-decoration:none;  
+   -webkit-border-top-right-radius: 5px;  
+   -moz-border-radius-topright: 5px;  
+   border-top-right-radius: 5px;  
+   -webkit-border-top-left-radius: 5px;  
+   -moz-border-radius-topleft: 5px;  
+   border-top-left-radius: 5px;  
+   border:1px solid #BCC5CB;  
+   border-bottom: 0;  
+}  
+ul.tabs-nav li a.current {  
+   background-color:#ffffff;  
+   color:#282e32;  
+   padding-bottom:8px;        
+}  
+.tabs div {  
+   background-color:#ffffff;  
+   padding:15px 30px 25px 30px;  
+   border:1px solid #BCC5CB;   
+   -webkit-box-shadow: 0 6px 6px -6px grey;  
+   -moz-box-shadow: 0 6px 6px -6px grey;  
+   box-shadow: 0 6px 6px -6px grey;  
+   display:none;  
+   overflow:hidden;  
+}  
+.tabs div.selected {  
+   display:block;  
+}    
+
+
+
+
+div#banner {
+    width:900px;
+    height:300px;
+    margin:auto; margin-bottom: 10px;
+    background: url(bangkok_university_panorama_by_palmbook-d5erv18.jpg) repeat 0 0;
+}
+ 
+div#banner p {    
+    font: 15px Arial, Helvetica, sans-serif;
+    color:white;
+    position:relative;   
+    left:20px;
+    top:120px;
+    width:305px;
+    padding:20px;
+    background:black;
+    text-align:center;
+    text-transform:uppercase;
+    letter-spacing:20px;
+    zoom: 1;
+    filter: alpha(opacity=50);
+    opacity: 0.5;     
+}
+    
+	
+	
+	
+	
+	#actualFooter {
+	border: medium solid #2A8AA3;
+	text-align: center;
+	color: #5B1314;
+	margin-bottom: -0px;
+	margin-top: 20px;
+}
+   

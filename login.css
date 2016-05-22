@@ -1,0 +1,45 @@
+@charset "utf-8";
+#animatedLogo              { margin:0px 0px; float:left}
+#universityName            { margin:70px 40px;float:right; }
+#wrapper                   { width: 900px; margin:0 auto; background-color:#DCD092}
+#mainWrapper               { width: 920px; margin:0 auto; background-color:#DCD092}
+body                       { background-image:url(background.jpg)}
+#topNavigate               { clear:both}
+#topNavigate ul            { border-top: 3px #703334 double; border-bottom: #703334 double;
+                             margin:10px 0; padding:5px}
+#topNavigate ul li         { display:inline; }
+#topNavigate li a          { padding:40px;  }
+
+#topNavigate a:link        { color: black; font: sans-serif; font-weight:bold; }
+#topNavigate a:visited     { color: #B3A9A9; }
+#topNavigate a:hover       { color: #DB6A6C; font-style: normal;}
+#loginFrame                {
+	border-style: solid;
+	width: 400px;
+	height: 300px;
+	margin-left: 250px;
+	margin-top: 50px;
+	margin-bottom: -50px;
+	margin-right: 0px;
+	border-radius: 20px;
+	background-color: #A5C1D1;
+	color: #770D0E;
+}
+#enterLogin {
+	text-align: center;
+}
+#userandpass{
+	margin-left: 70px;
+	border-style: dotted;
+	width: 250px;
+	height: 200px;
+	text-align: center;
+	text-decoration: none;
+}
+#actualFooter {
+	border: medium solid #2A8AA3;
+	text-align: center;
+	color: #5B1314;
+	margin-bottom: -0px;
+	margin-top: 70px;
+}

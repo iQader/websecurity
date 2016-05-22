@@ -1,0 +1,67 @@
+@charset "utf-8";
+#animatedLogo              { margin:0px 0px; float:left}
+#universityName            { margin:70px 40px;float:right; }
+#wrapper                   { width: 900px; margin:0 auto; background-color:#DCD092}
+#mainWrapper               { width: 920px; margin:0 auto; background-color:#DCD092}
+body                       { background-image:url(background.jpg)}
+#topNavigate               { clear:both}
+#topNavigate ul            { border-top: 3px #703334 double; border-bottom: #703334 double;
+                             margin:10px 0; padding:10px}
+#topNavigate ul li         { display:inline; }
+#topNavigate li a          { padding:40px;  }
+
+#topNavigate a:link        { color: black; font: sans-serif; font-weight:bold; }
+#topNavigate a:visited     { color: #B3A9A9; }
+#topNavigate a:hover       { color: #DB6A6C; font-style: normal;}/* CSS Document */
+
+
+
+
+
+
+html, body   
+{  
+   padding:0; margin:0;   
+}        
+#menu   
+{                 
+   list-style-type:none;  
+   font: 20px Verdana;  
+   padding:0;    
+}  
+#menu li   
+{  
+   width:450px;  
+   margin:5px 0;  
+   padding:0;  
+   background-color:#248BB7;  
+   border-top-right-radius: 300px 35px;  
+   -moz-border-radius-topright:300px 35px;  
+   -webkit-border-top-right-radius: 300px 35px;  
+   border-bottom-right-radius: 300px 35px;  
+   -moz-border-radius-bottomright:300px 35px;  
+   -webkit-border-bottom-right-radius: 300px 35px;  
+}  
+#menu li a   
+{  
+   text-decoration:none;  
+   display:block;  
+   padding:10px 0 10px 280px;  
+   color:#dcd092;  
+}  
+
+
+
+#coursesList{
+	margin-top: 100px;
+	margin-bottom: 0px;
+}
+
+
+#actualFooter {
+	border: medium solid #2A8AA3;
+	text-align: center;
+	color: #5B1314;
+	margin-bottom: -0px;
+	margin-top: 20px;
+}

@@ -1,0 +1,57 @@
+@charset "utf-8";
+@charset "utf-8";
+#animatedLogo              { margin:0px 0px; float:left}
+#universityName            { margin:70px 40px;float:right; }
+#wrapper                   { width: 900px; margin:0 auto; background-color:#DCD092}
+#mainWrapper               { width: 920px; margin:0 auto; background-color:#DCD092}
+body                       { background-image:url(background.jpg)}
+#topNavigate               { clear:both}
+#topNavigate ul            { border-top: 3px #703334 double; border-bottom: #703334 double;
+                             margin:10px 0; padding:5px}
+#topNavigate ul li         { display:inline; }
+#topNavigate li a          { padding:40px;  }
+
+#topNavigate a:link        { color: black; font: sans-serif; font-weight:bold; }
+#topNavigate a:visited     { color: #B3A9A9; }
+#topNavigate a:hover       { color: #DB6A6C; font-style: normal;}
+
+#gradeText                 {
+	margin-left: 400px;
+	margin-top: 50px;
+	color: #A32B2D;
+}
+#actualFooter {
+	border: medium solid #2A8AA3;
+	text-align: center;
+	color: #5B1314;
+	margin-bottom: -0px;
+	margin-top: 30px;
+}
+
+
+
+
+body   
+{    
+    font: 15px Arial, Helvetica, sans-serif;    
+    color: #7F191B;                    
+}   
+table   
+{ margin-left:270px;
+    border: 10px #B4D0F3 solid;    
+    border-collapse: collapse;    
+}    
+tr.striped   
+{    
+    background-color: #E5EFFE;    
+}    
+th   
+{    
+    background-color: #B4D0F3;    
+    padding: 15px 15px;  
+    text-align: left;    
+}   
+td   
+{    
+    padding: 10px 18px;    
+}  

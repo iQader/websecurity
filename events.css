@@ -1,0 +1,243 @@
+@charset "utf-8";
+/* Text Elements */
+#animatedLogo              { margin:0px 0px; float:left}
+#universityName            { margin:70px 40px;float:right; }
+#wrapper                   {
+	width: 900px;
+	margin: 0 auto;
+	background-color: #DCD092;
+	height: 1200px;
+}
+#mainWrapper               {
+	width: 920px;
+	margin: 0 auto;
+	background-color: #DCD092;
+	height: 1200px;
+}
+body                       { background-image:url(background.jpg)}
+#topNavigate               { clear:both}
+#topNavigate ul            { border-top: 3px #703334 double; border-bottom: #703334 double;
+                             margin:10px 0; padding:10px}
+#topNavigate ul li         { display:inline; }
+#topNavigate li a          { padding:40px;  }
+
+#topNavigate a:link        { color: black; font: sans-serif; font-weight:bold; }
+#topNavigate a:visited     { color: #B3A9A9; }
+#topNavigate a:hover       { color: #DB6A6C; font-style: normal;}
+#eventsBordar                {
+	margin-left: 48px;
+	margin-top: 35px;
+	border: 0px dotted #AAAAAA;
+	border-radius: 0px;
+	box-shadow: px 0px px px;
+	height: auto;
+	width: auto;
+}
+#eventText {
+	margin-left: 22px;
+	width: 400px;
+	margin-top: 70px;
+	color: #148FA8;
+}
+#actualFooter {
+	border: medium solid #2A8AA3;
+	text-align: center;
+	color: #5B1314;
+	margin-bottom: -0px;
+	margin-top: 30px;
+}
+#jetSki { width: 650px;  }
+#jetSkyText { width: 350px;}
+#jetSkiPhotos{
+	width: 250px;
+	height: 250px;
+	border-style: solid;
+	float: right;
+	background-image: url(jet-ski.jpg);
+	background-size: cover;
+	margin-top: 100px;
+}
+
+#skyDiving { width: 650px; background-image: }
+#skyDivingText { width: 350px;}
+#skyDivingPhoto{
+	width: 250px;
+	height: 250px;
+	float: right;
+	border-style: solid;
+	background-image: url(skydive.jpg);
+	background-size: cover;
+	margin-top: 100px;
+}
+
+#hiking{ width: 650px; background-image: url(url); }
+#hikingText {
+	width: 350px;
+	margin-top: 0px;
+}
+#hikingPhoto{
+	width: 250px;
+	height: 250px;
+	border-style: solid;
+	float: right;
+	background-image: url(hiking.jpg);
+	background-size: cover;
+	margin-top: 100px;
+}
+
+#football { width: 650px; background-image: url(url); }
+#footballText { width: 350px;}
+#footballPhoto{
+	width: 250px;
+	height: 250px;
+	float: right;
+	border-style: solid;
+	background-image: url(women_s_football_649x433.jpg);
+	background-size: cover;
+	margin-top: 100px;
+}
+
+#seattle { width: 650px; background-image: url(url); }
+#seattleText { width: 350px;}
+#seattlePhoto{
+	width: 250px;
+	height: 250px;
+	border-style: solid;
+	float: right;
+	background-image: url(Seattle-skyline-space-needle.jpg);
+	background-size: cover;
+	margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@charset "utf-8";
+figure {
+    margin: ;
+    position:relative;
+}
+figure img {
+    display: block;
+    position: relative;
+    z-index: 10;
+    max-width: 400px;
+    height: 400px;
+}
+figure figcaption {
+    display: block;
+    position: absolute;
+    z-index: 0;
+}
+figure h3 {
+    color: #14848A;
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+figure span {
+    color: #CC0407;
+    display: block;
+    line-height: 1.2;
+}
+figure a.close-caption {
+    display: block;
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #E82125;
+}
+figure a.close-caption.hidden {
+    display: none
+}
+#effect-5 figure a.close-caption {
+    bottom: 10px;
+    left: 10px;
+}
+#effect-5 figure figcaption {
+    width: 400px; height:400px;
+    top: 0;
+    left: 50;
+    background: #dcd092;
+    padding: 0px;
+}
+#effect-5 figure img {
+    transition: all 0.5s;
+}
+.no-touch #effect-5 figure:hover img,
+#effect-5 figure.hover img {
+    transform: rotate(-360deg) scale(0);
+}
+#figure{
+	width: 0px;
+}
+#jetSki11{
+	margin-left: -40px;
+	margin-bottom: -0px;
+	margin-top: -20px;
+}
+#jetSki111{
+	margin-left: -40px;
+	margin-top: 0px;
+}
+#hiking11{
+	width: 400px;
+	height: 400px;
+	margin-left: -40px;
+	margin-top: -16px;
+}
+#hiking111{
+	width: 400px;
+	height: 400px;
+	margin-left: -40px;
+	margin-top: -16px;
+}
+#seattle11{
+	width: 400px;
+	height: 400px;
+	margin-left: 360px;
+	margin-top: -416px;
+}
+#seattle111{
+	width: 400px;
+	height: 400px;
+	margin-left: 360px;
+	margin-top: px;
+}
+#skydive11{
+	width: 400px;
+	height: 400px;
+	padding-left: 0px;
+	margin-left: 360px;
+	margin-top: -416px;
+	margin-bottom: 0px;
+
+}
+#skydive111{
+	width: 400px;
+	height: 400px;
+	margin-left: 360px;
+	margin-top: 0px;
+
+}

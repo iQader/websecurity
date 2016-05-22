@@ -1,0 +1,62 @@
+@charset "utf-8";
+figure {
+    margin: 0;
+    position: relative;
+}
+figure img {
+    display: block;
+    position: relative;
+    z-index: 10;
+    max-width: 100%;
+    height: auto;
+}
+figure figcaption {
+    display: block;
+    position: absolute;
+    z-index: 5;
+}
+figure h3 {
+    color: #fff;
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+figure span {
+    color: #b2cce1;
+    display: block;
+    line-height: 1.2;
+}
+figure a.close-caption {
+    display: block;
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #315a7d;
+}
+figure a.close-caption.hidden {
+    display: none
+}
+#effect-5 figure a.close-caption {
+    bottom: 10px;
+    left: 10px;
+}
+#effect-5 figure figcaption {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: steelblue;
+    padding: 20px;
+}
+#effect-5 figure img {
+    transition: all 0.5s;
+}
+.no-touch #effect-5 figure:hover img,
+#effect-5 figure.hover img {
+    transform: rotate(-360deg) scale(0);
+}
